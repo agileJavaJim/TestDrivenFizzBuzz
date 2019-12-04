@@ -23,5 +23,12 @@ class TestFizzBuzz {
 	
 		assertEquals("Buzz", game.myFizzBuzz(10));
 	}
+	@Test
+	void canReturnNum() {
+		FizzBuzz game = new FizzBuzz();
+		int i = 4;
+		
+		assertEquals(4, game.myFizzBuzzNum(i));
+	}
 
 }
